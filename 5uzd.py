@@ -4,3 +4,4 @@ with open('5user.txt', 'w') as f:
         print("Fails neeksistē vai nav atrasts!")
         pass
     f.write(vards)
+    print("Tavs vārds ir veiksmīgi ierakstīts failā!")
