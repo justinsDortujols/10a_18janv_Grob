@@ -1,3 +1,3 @@
 vards=input('Ievadi savu vārdu: ')
-with open(f'{vards}.txt', 'w') as f:
-    pass
+with open('5user.txt', 'w') as f:
+    f.write(vards)
